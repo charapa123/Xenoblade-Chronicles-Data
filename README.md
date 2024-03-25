@@ -28,8 +28,16 @@
  Quest: This is a list of all the standard quests in the game.
  Note: each quest has been assigned to a colony but there could be quests assigned to multiple colonies as they require you to travel or the characters have moved locations
 
+ Recommended Level: This relates to all standard quests and are the recommended levels advised to complete a quest. String field.
+
+ Chapter: This is the chapter at which the standard quest can be unlocked. String field.
+
+ Post Game Quest: This just tells us the quest name if the quest is after chapter 7. String field. 
+
 Ascention Prerequisits: This field provides us all the initial requirements to unlock the Ascention quest, so discussions that you need to have first and other specific requirements. String field.
 Note: these don't tell you all the prerequisit standard quests that have to be completed these are in another field.
+
+
  
 
  
