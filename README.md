@@ -22,7 +22,7 @@
 
  Colony: Colony Name. String field
 
- Images: These are the logos that are assigned to each colony in Xenoblade Chronicles 3.
+ Colony Images: These are the logos that are assigned to each colony in Xenoblade Chronicles 3.
  Note: these are url images, however you can also find a zip file with all the colony images.
 
  Quest: This is a list of all the standard quests in the game.
@@ -32,10 +32,22 @@
 
  Chapter: This is the chapter at which the standard quest can be unlocked. String field.
 
- Post Game Quest: This just tells us the quest name if the quest is after chapter 7. String field. 
+ Ascention Pre requisit header: This field provides us all the initial requirements to unlock the Ascention quest, so discussions that you need to have first and other specific requirements. String field.
+ Note: these don't tell you all the prerequisit standard quests that have to be completed these are in another field, these are also for each ascention quest
 
-Ascention Prerequisits: This field provides us all the initial requirements to unlock the Ascention quest, so discussions that you need to have first and other specific requirements. String field.
-Note: these don't tell you all the prerequisit standard quests that have to be completed these are in another field.
+ Ascention Pre requisit value: This field provides the actual values for those discussions and other requirements. string field
+
+ How to accept quest: this is directly related to the quests and just explains how the quest can be accepted. string field
+
+ Hero Ascention: this is a field that populates the hero name if this standard quest is needed to unlock a hero's ascention quest. string field.
+
+ Post Game Quest: this field just shows which quests are post game, it's null for all non post game quests and shows the quest name if it is. string field
+
+
+
+
+
+
 
 
  
