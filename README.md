@@ -16,11 +16,12 @@
  Note: there is also a zip file with all these images in case the images are removed from the s3 bucket, this field is images for the Hero info field.
 
  Region Lines: this is the overview of the world and these regions can have multiple colonies per region which we can drill down into. This field is a spatial field that has the region outlines.
+ Note: These are polygons and only in the tableau hyper which is in the zip file.
 
  Region: Name of the region. String field
 
  Colony Lines: These are the different locations you will travel to in the game. Spatial field.
- Note: 
+ Note: These are polygons and only in the tableau hyper which is in the zip file.
 
  Colony: Colony Name. String field
 
